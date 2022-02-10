@@ -23,6 +23,7 @@ public class LeapYear {
 
 		if ((year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0))) { // use condition and check year divisible or
 																			// not by 4,100,400.
+
 			System.out.println(year + " is leap Year");
 		} else
 			System.out.println(year + " is not leap Year");
