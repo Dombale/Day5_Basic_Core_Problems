@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class EvenOddNumbers {
 
 	public static void main(String[] args) {
-		System.out.println("Welcome in Even-Odd Numbers...!!");
+		System.out.println("Welcome in Even-Odd Numbers..!!");
 		evenOddCheck();
 	}
 
