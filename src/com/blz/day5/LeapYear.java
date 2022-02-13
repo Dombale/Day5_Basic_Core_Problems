@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class LeapYear {
 
 	public static void main(String[] args) {
-		System.out.println(" Welcome in Leap Year Calculator : ");
+		System.out.println(" Welcome in Leap Year Calculator: ");
 		checkLeapYear();
 	}
 	// Using static method for checking leap year condition.
