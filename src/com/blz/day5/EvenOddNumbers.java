@@ -9,12 +9,14 @@ public class EvenOddNumbers {
 		evenOddCheck();
 	}
 
+	// Method used for checking Even-Odd number.
+
 	static void evenOddCheck() {
 		System.out.println("The number is :");
-		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in); // Taking input from user
 		int Num = sc.nextInt();
 
-		if (Num % 2 == 0)
+		if (Num % 2 == 0) // Condition for check even - Odd number
 			System.out.println(Num + " number is Even");
 		else
 			System.out.println(Num + " number is Odd");
